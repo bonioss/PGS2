@@ -1,0 +1,248 @@
+body{
+padding: 0;
+margin: 0;
+}
+
+.container{
+  z-index:1;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top:0;
+  background-color: #E694C0;
+}
+
+nav{
+  z-index:2;
+  padding: 0;
+  margin:0;
+  min-width: 180px;
+  background-color: white;
+  position:absolute;
+  height: 100vh;
+  width:11vw;
+  transform:translate(88.3vw,0%);
+}
+.emblem{
+  width: 11vw;
+  height: 11vh;
+  min-width: 180px;
+  min-height: 180px;
+  background-image: url("../Images/logo.svg");
+  background-position:top;
+  background-color: #272125;
+}
+
+nav ul {
+  transform: translate(0,-6vh);
+  list-style-type: none;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+  padding: 0;
+  text-align: center;
+}
+
+nav li > a{
+  color: #272125;
+  text-decoration: none;
+  text-transform:  uppercase;
+}
+
+nav  li {
+
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: center;
+  padding-top: 5vh;
+}
+.active{
+  color: #EC2D6D
+}
+
+.counter h1
+{
+  transform: translate(0,-11vh);
+  color: #272125;
+  font-family: BebasNeueBold;
+  font-size: 100px;
+  font-weight: 700;
+  line-height: 120px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.counter p{
+  transform: translate(0,-12vh);
+  color: #272125;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+}
+.media ul{
+transform: translate(0,-8vh);
+border-top: 1px solid #7a7d80;
+border-bottom: 1px solid #7a7d80;
+padding: 0;
+margin:2vh;
+}
+
+  .media li{
+
+  display: inline-block;
+  margin:0;
+  padding: 0;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  padding-right: 3vh;
+}
+
+ .media li:last-child{
+  padding-right: 0;
+}
+
+footer{
+  transform: translate(0,-4vh);
+  color: #272125;
+   font-family: Lato;
+   font-size: 12px;
+   font-weight: 700;
+   line-height: 20px;
+   text-align: center;
+}
+footer a {
+  color: #EC2D6D;
+  text-decoration: none;
+}
+
+.icon{
+
+  z-index: -2;
+  position: absolute;
+  margin:0;
+  background-color: #E694C0;
+  border-bottom-right-radius: 45px;
+  border-top-right-radius: 45px;
+  border-left: 0;
+  width: 45px;
+  height: 90px;
+  transform: translate(-1px,calc(6.5vh + 17px));
+}
+.icon img {
+  transform: translate(-1vw, 3.5vh);
+}
+
+.photo1 img {
+  height: 650px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  transform: translate(20vw, 7vh);
+}
+
+.photo2 img {
+  height: 650px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  transform: translate(45vw, 7vh);
+}
+
+.photo1 .name {
+  position: absolute;
+  z-index: 1;
+  color: #272125;
+  font-family: BebasNeueBold;
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 96px;
+  text-align: left;
+    transform: translate(7.8vw, 13vh);
+}
+
+.photo1 .number {
+  position: absolute;
+  z-index: 1;
+  color: #272125;
+  font-family: BebasNeueBold;
+  font-size: 180px;
+  font-weight: 700;
+  letter-spacing: -14px;
+  line-height: 240px;
+  text-align: center;
+  transform: translate(7.5vw, 20vh);
+}
+
+.photo1 .title {
+  position: absolute;
+  z-index: 1;
+  color: #000000;
+ font-family: Lato;
+ font-size: 30px;
+ font-weight: 500;
+ line-height: 40px;
+ text-align: left;
+ transform: translate(7.5vw, 48vh);
+}
+
+.photo2 .title {
+  position: absolute;
+  z-index: 1;
+  color: #FFFFFF;
+ font-family: Lato;
+ font-size: 30px;
+ font-weight: 500;
+ line-height: 40px;
+ text-align: right;
+ transform: translate(65vw, 40vh);
+}
+
+.photo2 .number {
+  position: absolute;
+  z-index: 1;
+  color: #FFFFFF;
+  font-family: BebasNeueBold;
+  font-size: 180px;
+  font-weight: 700;
+  line-height: 240px;
+  text-align: center;
+  transform: translate(67vw, 47vh);
+}
+
+.photo2 .name {
+  position: absolute;
+  z-index: 1;
+  color: #FFFFFF;
+  font-family: BebasNeueBold;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 96px;
+  text-align: right;
+    transform: translate(52vw, 75vh);
+}
+
+.line_upper{
+  margin: 0;
+  padding: 0;
+  position:absolute;
+  background-color: #272125;
+ width: 2px;
+ height: 250px;
+ transform: translate(1240px,0px);
+}
+
+.line_lower{
+  margin: 0;
+  padding: 0;
+  position:absolute;
+  background-color: #272125;
+ width: 2px;
+ height: 227px;
+ transform: translate(112px,523px);
+}
